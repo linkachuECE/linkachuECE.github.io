@@ -1,0 +1,177 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  color:#016874;
+  font-size: 60px;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: large;
+  font-weight: lighter;
+  margin: 20px auto;
+  line-height: 1.5;
+}
+
+nav {
+  background-color: #016874;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding: 25px;
+  width: 100%;
+  border-bottom: rgba(0, 0, 0, 0.5) solid 1px;
+  padding-bottom: 10px;
+  z-index: 10;
+}
+
+nav h1 {
+  color:rgb(224, 228, 15);
+  font-weight: 500;
+  font-size: x-large;
+  margin: 20px 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+  display: inline;
+  padding: 15px 2px;
+  margin-bottom: 5px;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 20px;
+}
+
+nav a:link, a:visited, a:active {
+  color: white;
+}
+
+nav a:hover {
+  color: rgb(224, 228, 15);
+}
+
+main {
+  margin-top: 150px;
+  text-align: center;
+}
+
+#Top {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  background-color: #016874;
+  width: 100%;
+  height: 800px;
+  padding: 0px;
+}
+
+#Top h2 {
+  color:rgb(224, 228, 15);
+  font-size: 45px;
+}
+
+#Top h1 {
+  color:rgb(255, 255, 255);
+  font-size: 100px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#Top h3 {
+  color:rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: lighter;
+  margin-top: 10px;
+}
+
+#Top span {
+  flex-grow: 1.5;
+}
+
+#Top img {
+  object-fit: cover;
+  height: 100%;
+  flex-grow: 1;
+}
+
+#Intro {
+  vertical-align: middle;
+}
+
+#AboutMe, #Goals {
+  width: 100%;
+  top: 0px;
+  text-align: center;
+}
+
+#AboutMe {
+  background-color: rgb(201, 201, 201);
+}
+
+#AboutMe .info {
+  width: 60%;
+  margin: 10px;
+}
+
+span.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+span.gallery img {
+  display: inline-block;
+  margin: 20px;
+  min-height: 300px;
+  height: 100%;
+  object-fit: cover;
+}
+
+#Contact {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  background-color: #016874;
+  width: 100%;
+  height: 800px;
+  padding: 0px;
+  margin-top: 200px;
+}
+
+#Contact img {
+  object-fit: cover;
+  height: 100%;
+  flex-grow: 1;
+}
+
+#Contact span {
+  flex-grow: 1.5;
+}
+
+#Contact h1 {
+  color: rgb(224, 228, 15);
+  margin-bottom: 50px;
+}
+
+#Contact p {
+  color:rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: lighter;
+}
